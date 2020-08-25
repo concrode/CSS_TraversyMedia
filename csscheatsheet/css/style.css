@@ -1,0 +1,215 @@
+/* Set for everything
+*{
+	margin:0;
+	padding: 0;
+}
+*/
+
+h1 {
+	color:green;
+}
+
+body {
+	background-color: #f4f4f4;
+	color: #555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight:normal;
+	/* Same as above*/
+	font:normal 18px Arial, Helvetica, sans-serif;
+
+	line-height: 1.6em;
+	margin:0;
+}
+
+/* This applies to any link on the page*/
+a{
+	text-decoration: none; /*Remove underline*/
+	color:#000;
+}
+
+/* Used when mouse is staying in link*/
+a:hover{
+	color:red;
+}
+
+
+a:active{
+	color:green;
+}
+
+
+a:visited{
+}
+
+
+.container {
+	width:80%; /*Set percentage to make it responsively*/
+	margin:auto; /*margin is spacing around element*/
+}
+
+.button {
+	background-color: #333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color: #fff;
+}
+
+.clr{
+	clear: both;
+}
+
+/* "." is for class */
+.box-1{
+	background-color: #333;
+	color:#fff;
+
+	border-right:5px red solid;
+	border-left:5px red solid;
+	border-top:5px red solid;
+	border-bottom:5px red solid;
+
+	/* Same as above */
+	border: 5px red solid;
+	border-bottom-width: 10px;
+	border-top-style:dotted;
+
+	/* Override above everything*/
+	border: 10px orange solid;
+
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+
+	/* Same as above*/
+	padding:20px;
+
+	margin:50px 0;
+}
+
+/* Any h1 with class="box-1"*/
+.box-1 h1{
+	font-family:Tahoma;
+	font-weight: 800;
+	font-style:italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+
+.box-2{
+	border:3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+
+.categories{
+	border:1px #ccc solid;
+	padding: 10px;
+	border-radius:15px;
+
+}
+
+.categories h2{
+	text-align:center;
+}
+
+.categories ul{
+	padding:0;
+	padding-left: 30px;
+	list-style:square;
+	list-style:none;
+}
+
+
+.categories li{
+	margin:5px 0;
+	padding-bottom:10px;
+	border-bottom:dotted 1px #333;
+	list-style-image: url('../images/check.png');
+}
+
+.my-form{
+	padding:20px;
+
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+/* ======> block element across one line */
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid #ccc;
+	padding:10px;
+	box-sizing:border-box; /*Must use this one when using width:33.3%*/
+}
+
+
+#main-block{
+	float:left;
+	width:70%;
+	padding:15px;
+	box-sizing:border-box;
+}
+
+#sidebar{
+	float:left;
+	width:30%;
+	background-color: #333;
+	color:#fff;
+	padding:15px;
+	box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
